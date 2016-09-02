@@ -1,0 +1,16 @@
+{
+  "name": "bentools/guzzle-buffered",
+  "license": "MIT",
+  "type": "library",
+  "description": "Buffers asynchronous parallel requests, with before / after / success / error event management.",
+  "autoload": {
+    "psr-4": {
+      "BenTools\\GuzzleBuffered\\": "src/BenTools/GuzzleBuffered"
+    }
+  },
+  "require": {
+    "php": ">=5.5.9",
+    "guzzlehttp/guzzle": "~6.0",
+    "symfony/event-dispatcher": "~2.3|~3.0"
+  }
+}
